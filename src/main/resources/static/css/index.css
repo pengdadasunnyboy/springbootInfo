@@ -1,0 +1,38 @@
+@charset "UTF-8";
+*{
+    margin: 0;
+    padding: 0;
+}
+.box-top{
+    height: 120px;
+    background:url(../images/two.jpeg);
+    background-size: 100% 100%;
+}
+.nav-info{
+    width: 1226px;
+    height: 40px;
+    margin: 0 auto;
+    background: rgb(51,51,51);
+}
+.nav-info-left ul li{
+    list-style: none;
+    float: left;
+    margin-left: 8px;
+    font-size: 12px;
+    height: 40px;
+    line-height: 40px;
+    color: #b0b0b0;
+}
+.nav-info-right{
+    float: right;
+    margin-right: 30px;
+}
+.nav-info-right ul li{
+    list-style: none;
+    float: left;
+    margin-left: 8px;
+    font-size: 12px;
+    height: 40px;
+    line-height: 40px;
+    color: #b0b0b0;
+}

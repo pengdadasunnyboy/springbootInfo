@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <title>注册成功</title>
+    <script src="webjars/jquery/3.3.1-1/jquery.min.js"></script>
+    <script src="webjars/vue/2.5.16/vue.min.js"></script>
+    <script src="webjars/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="webjars/bootstrap/4.1.3/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="/../../css/register.css" />
+    <script src="/../../js/jsonHandler.js"></script>
+</head>
+<body>
+    <h1>注册成功</h1>
+
+     <button id="one">ok</button>
+<script>
+    $(function () {
+        $("#one").click(function () {
+
+        });
+    });
+
+
+    /*$(function(){
+        $("#reg").click(function(){
+            var json = $("#formRegister").serializeObject();//json对象  [object,object]
+            //alert(JSON.stringify(json));//将json对象转成json字符串
+            $.ajax({
+                url:"/register",
+                type:"get",
+                dataType:"json",
+                data:"json",
+                success:function(result){
+                    alert("成功了");
+                }
+            });
+        });
+    });*/
+</script>
+</body>
+</html>

@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8"/>
+    <title>Title</title>
+    <script src="webjars/jquery/3.3.1-1/jquery.min.js"></script>
+    <script src="webjars/vue/2.5.16/vue.min.js"></script>
+    <script src="webjars/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="webjars/bootstrap/4.1.3/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="/../../css/register.css" />
+    <script src="/../../js/jsonHandler.js"></script>
+</head>
+<body>
+<div class="content">
+    <div class="top-logo"></div>
+    <h2 class="page-header text-center">注册XX账号</h2>
+    <div class="register">
+       <form class="form" action="/register" method="post" id="formRegister">
+	        <input type="text" name="username" placeholder="请输入用户名"/><br/><br/>
+	        <input type="password" name="password" placeholder="请输入密码"/><br/><br/>
+	        <input type="text" name="age" placeholder="请输入年龄"/><br/><br/>
+	        <input type="email" name="email" placeholder="请输入邮箱"/><br/><br/>
+	        <input type="tel" name="phone" placeholder="请输入手机号"/><br/><br/>
+	        <button type="submit" class="btn" id="reg">立即注册</button>
+        </form>
+    </div>
+    <div class="attention">注册帐号即表示您同意并愿意遵守XX<em>用户协议</em> 和 <em>隐私政策</em></div>
+    <div class="footer">XX公司版权所有-京ICP备10046444-京公网安备11010802020134号-京ICP证110507号</div>
+</div>
+
+<script>
+  /* $(function(){
+	   $("#reg").click(function(){
+		  var json = $("#formRegister").serializeObject();//json对象  [object,object]
+		  //alert(JSON.stringify(json));//将json对象转成json字符串
+		  $.ajax({
+			    url:"/register",
+			    type:"post",
+			    dataType:"json",
+			    data:"json",
+			    success:function(result){
+			    	alert("成功了");
+			    }
+		  });
+	   });
+   });*/
+</script>
+</body>
+</html>

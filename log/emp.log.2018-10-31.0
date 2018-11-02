@@ -1,0 +1,267 @@
+2018-10-31 09:58:27.736  INFO 16088 --- [main] com.yijiupi.login.LoginApplicationTests  : Starting LoginApplicationTests on DESKTOP-4EB9JCL with PID 16088 (started by Luyang.peng in F:\springBoot\login)
+2018-10-31 09:58:27.749 DEBUG 16088 --- [main] com.yijiupi.login.LoginApplicationTests  : Running with Spring Boot v1.5.9.RELEASE, Spring v4.3.13.RELEASE
+2018-10-31 09:58:27.749  INFO 16088 --- [main] com.yijiupi.login.LoginApplicationTests  : No active profile set, falling back to default profiles: default
+2018-10-31 09:58:28.152  INFO 16088 --- [main] o.s.w.c.s.GenericWebApplicationContext   : Refreshing org.springframework.web.context.support.GenericWebApplicationContext@3c7f66c4: startup date [Wed Oct 31 09:58:28 CST 2018]; root of context hierarchy
+2018-10-31 09:58:29.157  WARN 16088 --- [main] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[com.yijiupi.login]' package. Please check your configuration.
+2018-10-31 09:58:36.002  INFO 16088 --- [main] j.LocalContainerEntityManagerFactoryBean : Building JPA container EntityManagerFactory for persistence unit 'default'
+2018-10-31 09:58:36.031  INFO 16088 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2018-10-31 09:58:36.274  INFO 16088 --- [main] org.hibernate.Version                    : HHH000412: Hibernate Core {5.0.12.Final}
+2018-10-31 09:58:36.277  INFO 16088 --- [main] org.hibernate.cfg.Environment            : HHH000206: hibernate.properties not found
+2018-10-31 09:58:36.279  INFO 16088 --- [main] org.hibernate.cfg.Environment            : HHH000021: Bytecode provider name : javassist
+2018-10-31 09:58:36.343  INFO 16088 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2018-10-31 09:58:36.549  INFO 16088 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2018-10-31 09:58:37.256  INFO 16088 --- [main] org.hibernate.tool.hbm2ddl.SchemaUpdate  : HHH000228: Running hbm2ddl schema update
+2018-10-31 09:58:38.714  INFO 16088 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2018-10-31 09:58:40.450  INFO 16088 --- [main] s.w.s.m.m.a.RequestMappingHandlerAdapter : Looking for @ControllerAdvice: org.springframework.web.context.support.GenericWebApplicationContext@3c7f66c4: startup date [Wed Oct 31 09:58:28 CST 2018]; root of context hierarchy
+2018-10-31 09:58:40.907  INFO 16088 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/regist]}" onto public java.lang.String com.yijiupi.login.controller.EmpController.save(com.yijiupi.login.entity.Emp)
+2018-10-31 09:58:40.910  INFO 16088 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/toRegist]}" onto public java.lang.String com.yijiupi.login.controller.EmpController.insert()
+2018-10-31 09:58:40.913  INFO 16088 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/login]}" onto public java.lang.String com.yijiupi.login.controller.EmpController.getEmp(java.lang.String,java.lang.String,javax.servlet.http.HttpSession,org.springframework.web.servlet.mvc.support.RedirectAttributes)
+2018-10-31 09:58:40.914  INFO 16088 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/]}" onto public java.lang.String com.yijiupi.login.controller.EmpController.loginIndex()
+2018-10-31 09:58:40.930  INFO 16088 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2018-10-31 09:58:40.931  INFO 16088 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-10-31 09:58:41.031  INFO 16088 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-10-31 09:58:41.031  INFO 16088 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-10-31 09:58:41.065  INFO 16088 --- [main] .m.m.a.ExceptionHandlerExceptionResolver : Detected @ExceptionHandler methods in controllerExceptionHandler
+2018-10-31 09:58:41.154  INFO 16088 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-10-31 09:58:42.180  INFO 16088 --- [main] com.yijiupi.login.LoginApplicationTests  : Started LoginApplicationTests in 15.702 seconds (JVM running for 17.718)
+2018-10-31 09:58:42.585  INFO 16088 --- [Thread-3] o.s.w.c.s.GenericWebApplicationContext   : Closing org.springframework.web.context.support.GenericWebApplicationContext@3c7f66c4: startup date [Wed Oct 31 09:58:28 CST 2018]; root of context hierarchy
+2018-10-31 09:58:42.589  INFO 16088 --- [Thread-3] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2018-10-31 09:59:22.126  INFO 20704 --- [main] com.yijiupi.login.LoginApplicationTests  : Starting LoginApplicationTests on DESKTOP-4EB9JCL with PID 20704 (started by Luyang.peng in F:\springBoot\login)
+2018-10-31 09:59:22.127 DEBUG 20704 --- [main] com.yijiupi.login.LoginApplicationTests  : Running with Spring Boot v1.5.9.RELEASE, Spring v4.3.13.RELEASE
+2018-10-31 09:59:22.128  INFO 20704 --- [main] com.yijiupi.login.LoginApplicationTests  : No active profile set, falling back to default profiles: default
+2018-10-31 09:59:22.572  INFO 20704 --- [main] o.s.w.c.s.GenericWebApplicationContext   : Refreshing org.springframework.web.context.support.GenericWebApplicationContext@3c7f66c4: startup date [Wed Oct 31 09:59:22 CST 2018]; root of context hierarchy
+2018-10-31 09:59:23.723  WARN 20704 --- [main] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[com.yijiupi.login]' package. Please check your configuration.
+2018-10-31 09:59:28.864  INFO 20704 --- [main] j.LocalContainerEntityManagerFactoryBean : Building JPA container EntityManagerFactory for persistence unit 'default'
+2018-10-31 09:59:28.885  INFO 20704 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2018-10-31 09:59:29.101  INFO 20704 --- [main] org.hibernate.Version                    : HHH000412: Hibernate Core {5.0.12.Final}
+2018-10-31 09:59:29.104  INFO 20704 --- [main] org.hibernate.cfg.Environment            : HHH000206: hibernate.properties not found
+2018-10-31 09:59:29.174  INFO 20704 --- [main] org.hibernate.cfg.Environment            : HHH000021: Bytecode provider name : javassist
+2018-10-31 09:59:29.245  INFO 20704 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2018-10-31 09:59:29.411  INFO 20704 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2018-10-31 09:59:30.214  INFO 20704 --- [main] org.hibernate.tool.hbm2ddl.SchemaUpdate  : HHH000228: Running hbm2ddl schema update
+2018-10-31 09:59:31.145  INFO 20704 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2018-10-31 09:59:32.789  INFO 20704 --- [main] s.w.s.m.m.a.RequestMappingHandlerAdapter : Looking for @ControllerAdvice: org.springframework.web.context.support.GenericWebApplicationContext@3c7f66c4: startup date [Wed Oct 31 09:59:22 CST 2018]; root of context hierarchy
+2018-10-31 09:59:32.924  INFO 20704 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/regist]}" onto public java.lang.String com.yijiupi.login.controller.EmpController.save(com.yijiupi.login.entity.Emp)
+2018-10-31 09:59:32.925  INFO 20704 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/toRegist]}" onto public java.lang.String com.yijiupi.login.controller.EmpController.insert()
+2018-10-31 09:59:32.926  INFO 20704 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/login]}" onto public java.lang.String com.yijiupi.login.controller.EmpController.getEmp(java.lang.String,java.lang.String,javax.servlet.http.HttpSession,org.springframework.web.servlet.mvc.support.RedirectAttributes)
+2018-10-31 09:59:32.926  INFO 20704 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/]}" onto public java.lang.String com.yijiupi.login.controller.EmpController.loginIndex()
+2018-10-31 09:59:32.928  INFO 20704 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2018-10-31 09:59:32.928  INFO 20704 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-10-31 09:59:33.016  INFO 20704 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-10-31 09:59:33.017  INFO 20704 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-10-31 09:59:33.163  INFO 20704 --- [main] .m.m.a.ExceptionHandlerExceptionResolver : Detected @ExceptionHandler methods in controllerExceptionHandler
+2018-10-31 09:59:33.230  INFO 20704 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-10-31 09:59:34.513  INFO 20704 --- [main] com.yijiupi.login.LoginApplicationTests  : Started LoginApplicationTests in 13.272 seconds (JVM running for 14.499)
+2018-10-31 09:59:34.861  INFO 20704 --- [Thread-3] o.s.w.c.s.GenericWebApplicationContext   : Closing org.springframework.web.context.support.GenericWebApplicationContext@3c7f66c4: startup date [Wed Oct 31 09:59:22 CST 2018]; root of context hierarchy
+2018-10-31 09:59:34.864  INFO 20704 --- [Thread-3] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2018-10-31 10:00:10.370  INFO 12700 --- [main] com.yijiupi.login.LoginApplication       : Starting LoginApplication on DESKTOP-4EB9JCL with PID 12700 (F:\springBoot\login\target\classes started by Luyang.peng in F:\springBoot\login)
+2018-10-31 10:00:10.377 DEBUG 12700 --- [main] com.yijiupi.login.LoginApplication       : Running with Spring Boot v1.5.9.RELEASE, Spring v4.3.13.RELEASE
+2018-10-31 10:00:10.377  INFO 12700 --- [main] com.yijiupi.login.LoginApplication       : No active profile set, falling back to default profiles: default
+2018-10-31 10:00:10.718  INFO 12700 --- [main] ationConfigEmbeddedWebApplicationContext : Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@35047d03: startup date [Wed Oct 31 10:00:10 CST 2018]; root of context hierarchy
+2018-10-31 10:00:11.345  WARN 12700 --- [main] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[com.yijiupi.login]' package. Please check your configuration.
+2018-10-31 10:00:12.183  INFO 12700 --- [main] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat initialized with port(s): 8081 (http)
+2018-10-31 10:00:12.192  INFO 12700 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2018-10-31 10:00:12.193  INFO 12700 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/8.5.23
+2018-10-31 10:00:12.304  INFO 12700 --- [localhost-startStop-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2018-10-31 10:00:12.304  INFO 12700 --- [localhost-startStop-1] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1586 ms
+2018-10-31 10:00:12.443  INFO 12700 --- [localhost-startStop-1] o.s.b.w.servlet.ServletRegistrationBean  : Mapping servlet: 'dispatcherServlet' to [/]
+2018-10-31 10:00:12.447  INFO 12700 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-10-31 10:00:12.448  INFO 12700 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-10-31 10:00:12.448  INFO 12700 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2018-10-31 10:00:12.448  INFO 12700 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'requestContextFilter' to: [/*]
+2018-10-31 10:00:16.245  INFO 12700 --- [main] j.LocalContainerEntityManagerFactoryBean : Building JPA container EntityManagerFactory for persistence unit 'default'
+2018-10-31 10:00:16.256  INFO 12700 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2018-10-31 10:00:16.319  INFO 12700 --- [main] org.hibernate.Version                    : HHH000412: Hibernate Core {5.0.12.Final}
+2018-10-31 10:00:16.320  INFO 12700 --- [main] org.hibernate.cfg.Environment            : HHH000206: hibernate.properties not found
+2018-10-31 10:00:16.321  INFO 12700 --- [main] org.hibernate.cfg.Environment            : HHH000021: Bytecode provider name : javassist
+2018-10-31 10:00:16.350  INFO 12700 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2018-10-31 10:00:16.533  INFO 12700 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2018-10-31 10:00:16.778  INFO 12700 --- [main] org.hibernate.tool.hbm2ddl.SchemaUpdate  : HHH000228: Running hbm2ddl schema update
+2018-10-31 10:00:17.596  INFO 12700 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2018-10-31 10:00:18.184  INFO 12700 --- [main] s.w.s.m.m.a.RequestMappingHandlerAdapter : Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@35047d03: startup date [Wed Oct 31 10:00:10 CST 2018]; root of context hierarchy
+2018-10-31 10:00:18.246  INFO 12700 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/regist]}" onto public java.lang.String com.yijiupi.login.controller.EmpController.save(com.yijiupi.login.entity.Emp)
+2018-10-31 10:00:18.247  INFO 12700 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/toRegist]}" onto public java.lang.String com.yijiupi.login.controller.EmpController.insert()
+2018-10-31 10:00:18.247  INFO 12700 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/]}" onto public java.lang.String com.yijiupi.login.controller.EmpController.loginIndex()
+2018-10-31 10:00:18.247  INFO 12700 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/login]}" onto public java.lang.String com.yijiupi.login.controller.EmpController.getEmp(java.lang.String,java.lang.String,javax.servlet.http.HttpSession,org.springframework.web.servlet.mvc.support.RedirectAttributes)
+2018-10-31 10:00:18.249  INFO 12700 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2018-10-31 10:00:18.249  INFO 12700 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-10-31 10:00:18.293  INFO 12700 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-10-31 10:00:18.293  INFO 12700 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-10-31 10:00:18.309  INFO 12700 --- [main] .m.m.a.ExceptionHandlerExceptionResolver : Detected @ExceptionHandler methods in controllerExceptionHandler
+2018-10-31 10:00:18.330  INFO 12700 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-10-31 10:00:18.891  INFO 12700 --- [main] o.s.j.e.a.AnnotationMBeanExporter        : Registering beans for JMX exposure on startup
+2018-10-31 10:00:18.937  INFO 12700 --- [main] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat started on port(s): 8081 (http)
+2018-10-31 10:00:18.941  INFO 12700 --- [main] com.yijiupi.login.LoginApplication       : Started LoginApplication in 9.024 seconds (JVM running for 9.885)
+2018-10-31 10:00:25.136  INFO 12700 --- [http-nio-8081-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring FrameworkServlet 'dispatcherServlet'
+2018-10-31 10:00:25.136  INFO 12700 --- [http-nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : FrameworkServlet 'dispatcherServlet': initialization started
+2018-10-31 10:00:25.161  INFO 12700 --- [http-nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : FrameworkServlet 'dispatcherServlet': initialization completed in 25 ms
+2018-10-31 10:00:25.186  INFO 12700 --- [http-nio-8081-exec-1] com.yijiupi.login.aspect.LogAspect       : Request : RequestLog{url='http://localhost:8081/', ip='0:0:0:0:0:0:0:1', classMethod='com.yijiupi.login.controller.EmpController.loginIndex', args=[]}
+2018-10-31 10:00:25.189  INFO 12700 --- [http-nio-8081-exec-1] com.yijiupi.login.aspect.LogAspect       : --------doAfter--------
+2018-10-31 10:00:25.189  INFO 12700 --- [http-nio-8081-exec-1] com.yijiupi.login.aspect.LogAspect       : Result : login
+2018-10-31 10:00:28.395 ERROR 12700 --- [http-nio-8081-exec-2] org.thymeleaf.TemplateEngine             : [THYMELEAF][http-nio-8081-exec-2] Exception processing template "error/404": Exception evaluating SpringEL expression: "exception.message" (error/404:9)
+2018-10-31 10:00:28.398 ERROR 12700 --- [http-nio-8081-exec-2] o.a.c.c.C.[.[.[/].[dispatcherServlet]    : Servlet.service() for servlet [dispatcherServlet] threw exception
+
+org.springframework.expression.spel.SpelEvaluationException: EL1007E: Property or field 'message' cannot be found on null
+	at org.springframework.expression.spel.ast.PropertyOrFieldReference.readProperty(PropertyOrFieldReference.java:222)
+	at org.springframework.expression.spel.ast.PropertyOrFieldReference.getValueInternal(PropertyOrFieldReference.java:94)
+	at org.springframework.expression.spel.ast.PropertyOrFieldReference.access$000(PropertyOrFieldReference.java:46)
+	at org.springframework.expression.spel.ast.PropertyOrFieldReference$AccessorLValue.getValue(PropertyOrFieldReference.java:379)
+	at org.springframework.expression.spel.ast.CompoundExpression.getValueInternal(CompoundExpression.java:88)
+	at org.springframework.expression.spel.ast.SpelNodeImpl.getValue(SpelNodeImpl.java:121)
+	at org.springframework.expression.spel.standard.SpelExpression.getValue(SpelExpression.java:324)
+	at org.thymeleaf.spring4.expression.SpelVariableExpressionEvaluator.evaluate(SpelVariableExpressionEvaluator.java:140)
+	at org.thymeleaf.standard.expression.VariableExpression.executeVariable(VariableExpression.java:154)
+	at org.thymeleaf.standard.expression.SimpleExpression.executeSimple(SimpleExpression.java:59)
+	at org.thymeleaf.standard.expression.Expression.execute(Expression.java:103)
+	at org.thymeleaf.standard.expression.Expression.execute(Expression.java:133)
+	at org.thymeleaf.standard.expression.Expression.execute(Expression.java:120)
+	at org.thymeleaf.standard.processor.attr.AbstractStandardTextChildModifierAttrProcessor.getText(AbstractStandardTextChildModifierAttrProcessor.java:68)
+	at org.thymeleaf.processor.attr.AbstractTextChildModifierAttrProcessor.getModifiedChildren(AbstractTextChildModifierAttrProcessor.java:59)
+	at org.thymeleaf.processor.attr.AbstractChildrenModifierAttrProcessor.processAttribute(AbstractChildrenModifierAttrProcessor.java:59)
+	at org.thymeleaf.processor.attr.AbstractAttrProcessor.doProcess(AbstractAttrProcessor.java:87)
+	at org.thymeleaf.processor.AbstractProcessor.process(AbstractProcessor.java:212)
+	at org.thymeleaf.dom.Node.applyNextProcessor(Node.java:1017)
+	at org.thymeleaf.dom.Node.processNode(Node.java:972)
+	at org.thymeleaf.dom.NestableNode.computeNextChild(NestableNode.java:695)
+	at org.thymeleaf.dom.NestableNode.doAdditionalProcess(NestableNode.java:668)
+	at org.thymeleaf.dom.Node.processNode(Node.java:990)
+	at org.thymeleaf.dom.NestableNode.computeNextChild(NestableNode.java:695)
+	at org.thymeleaf.dom.NestableNode.doAdditionalProcess(NestableNode.java:668)
+	at org.thymeleaf.dom.Node.processNode(Node.java:990)
+	at org.thymeleaf.dom.NestableNode.computeNextChild(NestableNode.java:695)
+	at org.thymeleaf.dom.NestableNode.doAdditionalProcess(NestableNode.java:668)
+	at org.thymeleaf.dom.Node.processNode(Node.java:990)
+	at org.thymeleaf.dom.Document.process(Document.java:93)
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1155)
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1060)
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1011)
+	at org.thymeleaf.spring4.view.ThymeleafView.renderFragment(ThymeleafView.java:335)
+	at org.thymeleaf.spring4.view.ThymeleafView.render(ThymeleafView.java:190)
+	at org.springframework.web.servlet.DispatcherServlet.render(DispatcherServlet.java:1286)
+	at org.springframework.web.servlet.DispatcherServlet.processDispatchResult(DispatcherServlet.java:1041)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:984)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:901)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:970)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:861)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:635)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:846)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:742)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.ApplicationDispatcher.invoke(ApplicationDispatcher.java:728)
+	at org.apache.catalina.core.ApplicationDispatcher.processRequest(ApplicationDispatcher.java:469)
+	at org.apache.catalina.core.ApplicationDispatcher.doForward(ApplicationDispatcher.java:392)
+	at org.apache.catalina.core.ApplicationDispatcher.forward(ApplicationDispatcher.java:311)
+	at org.apache.catalina.core.StandardHostValve.custom(StandardHostValve.java:395)
+	at org.apache.catalina.core.StandardHostValve.status(StandardHostValve.java:254)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:177)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:81)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:87)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:342)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:803)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:868)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1459)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+
+2018-10-31 10:00:28.400 ERROR 12700 --- [http-nio-8081-exec-2] o.a.c.c.C.[Tomcat].[localhost]           : Exception Processing ErrorPage[errorCode=0, location=/error]
+
+org.springframework.web.util.NestedServletException: Request processing failed; nested exception is org.thymeleaf.exceptions.TemplateProcessingException: Exception evaluating SpringEL expression: "exception.message" (error/404:9)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:982)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:861)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:635)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:846)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:742)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.ApplicationDispatcher.invoke(ApplicationDispatcher.java:728)
+	at org.apache.catalina.core.ApplicationDispatcher.processRequest(ApplicationDispatcher.java:469)
+	at org.apache.catalina.core.ApplicationDispatcher.doForward(ApplicationDispatcher.java:392)
+	at org.apache.catalina.core.ApplicationDispatcher.forward(ApplicationDispatcher.java:311)
+	at org.apache.catalina.core.StandardHostValve.custom(StandardHostValve.java:395)
+	at org.apache.catalina.core.StandardHostValve.status(StandardHostValve.java:254)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:177)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:81)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:87)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:342)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:803)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:868)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1459)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: org.thymeleaf.exceptions.TemplateProcessingException: Exception evaluating SpringEL expression: "exception.message" (error/404:9)
+	at org.thymeleaf.spring4.expression.SpelVariableExpressionEvaluator.evaluate(SpelVariableExpressionEvaluator.java:162)
+	at org.thymeleaf.standard.expression.VariableExpression.executeVariable(VariableExpression.java:154)
+	at org.thymeleaf.standard.expression.SimpleExpression.executeSimple(SimpleExpression.java:59)
+	at org.thymeleaf.standard.expression.Expression.execute(Expression.java:103)
+	at org.thymeleaf.standard.expression.Expression.execute(Expression.java:133)
+	at org.thymeleaf.standard.expression.Expression.execute(Expression.java:120)
+	at org.thymeleaf.standard.processor.attr.AbstractStandardTextChildModifierAttrProcessor.getText(AbstractStandardTextChildModifierAttrProcessor.java:68)
+	at org.thymeleaf.processor.attr.AbstractTextChildModifierAttrProcessor.getModifiedChildren(AbstractTextChildModifierAttrProcessor.java:59)
+	at org.thymeleaf.processor.attr.AbstractChildrenModifierAttrProcessor.processAttribute(AbstractChildrenModifierAttrProcessor.java:59)
+	at org.thymeleaf.processor.attr.AbstractAttrProcessor.doProcess(AbstractAttrProcessor.java:87)
+	at org.thymeleaf.processor.AbstractProcessor.process(AbstractProcessor.java:212)
+	at org.thymeleaf.dom.Node.applyNextProcessor(Node.java:1017)
+	at org.thymeleaf.dom.Node.processNode(Node.java:972)
+	at org.thymeleaf.dom.NestableNode.computeNextChild(NestableNode.java:695)
+	at org.thymeleaf.dom.NestableNode.doAdditionalProcess(NestableNode.java:668)
+	at org.thymeleaf.dom.Node.processNode(Node.java:990)
+	at org.thymeleaf.dom.NestableNode.computeNextChild(NestableNode.java:695)
+	at org.thymeleaf.dom.NestableNode.doAdditionalProcess(NestableNode.java:668)
+	at org.thymeleaf.dom.Node.processNode(Node.java:990)
+	at org.thymeleaf.dom.NestableNode.computeNextChild(NestableNode.java:695)
+	at org.thymeleaf.dom.NestableNode.doAdditionalProcess(NestableNode.java:668)
+	at org.thymeleaf.dom.Node.processNode(Node.java:990)
+	at org.thymeleaf.dom.Document.process(Document.java:93)
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1155)
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1060)
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1011)
+	at org.thymeleaf.spring4.view.ThymeleafView.renderFragment(ThymeleafView.java:335)
+	at org.thymeleaf.spring4.view.ThymeleafView.render(ThymeleafView.java:190)
+	at org.springframework.web.servlet.DispatcherServlet.render(DispatcherServlet.java:1286)
+	at org.springframework.web.servlet.DispatcherServlet.processDispatchResult(DispatcherServlet.java:1041)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:984)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:901)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:970)
+	... 25 common frames omitted
+Caused by: org.springframework.expression.spel.SpelEvaluationException: EL1007E: Property or field 'message' cannot be found on null
+	at org.springframework.expression.spel.ast.PropertyOrFieldReference.readProperty(PropertyOrFieldReference.java:222)
+	at org.springframework.expression.spel.ast.PropertyOrFieldReference.getValueInternal(PropertyOrFieldReference.java:94)
+	at org.springframework.expression.spel.ast.PropertyOrFieldReference.access$000(PropertyOrFieldReference.java:46)
+	at org.springframework.expression.spel.ast.PropertyOrFieldReference$AccessorLValue.getValue(PropertyOrFieldReference.java:379)
+	at org.springframework.expression.spel.ast.CompoundExpression.getValueInternal(CompoundExpression.java:88)
+	at org.springframework.expression.spel.ast.SpelNodeImpl.getValue(SpelNodeImpl.java:121)
+	at org.springframework.expression.spel.standard.SpelExpression.getValue(SpelExpression.java:324)
+	at org.thymeleaf.spring4.expression.SpelVariableExpressionEvaluator.evaluate(SpelVariableExpressionEvaluator.java:140)
+	... 57 common frames omitted
+
+2018-10-31 10:00:33.719  INFO 12700 --- [http-nio-8081-exec-3] com.yijiupi.login.aspect.LogAspect       : Request : RequestLog{url='http://localhost:8081/', ip='0:0:0:0:0:0:0:1', classMethod='com.yijiupi.login.controller.EmpController.loginIndex', args=[]}
+2018-10-31 10:00:33.719  INFO 12700 --- [http-nio-8081-exec-3] com.yijiupi.login.aspect.LogAspect       : --------doAfter--------
+2018-10-31 10:00:33.720  INFO 12700 --- [http-nio-8081-exec-3] com.yijiupi.login.aspect.LogAspect       : Result : login
+2018-10-31 10:00:35.645  INFO 12700 --- [http-nio-8081-exec-5] com.yijiupi.login.aspect.LogAspect       : Request : RequestLog{url='http://localhost:8081/toRegist', ip='0:0:0:0:0:0:0:1', classMethod='com.yijiupi.login.controller.EmpController.insert', args=[]}
+2018-10-31 10:00:35.645  INFO 12700 --- [http-nio-8081-exec-5] com.yijiupi.login.aspect.LogAspect       : --------doAfter--------
+2018-10-31 10:00:35.646  INFO 12700 --- [http-nio-8081-exec-5] com.yijiupi.login.aspect.LogAspect       : Result : regist
+2018-10-31 10:00:49.366  INFO 12700 --- [http-nio-8081-exec-7] com.yijiupi.login.aspect.LogAspect       : Request : RequestLog{url='http://localhost:8081/regist', ip='0:0:0:0:0:0:0:1', classMethod='com.yijiupi.login.controller.EmpController.save', args=[Emp{id=null, name='admin', password='admin', sex='男', age=12}]}
+2018-10-31 10:00:49.667  INFO 12700 --- [http-nio-8081-exec-7] com.yijiupi.login.aspect.LogAspect       : --------doAfter--------
+2018-10-31 10:00:49.668  INFO 12700 --- [http-nio-8081-exec-7] com.yijiupi.login.aspect.LogAspect       : Result : success
+2018-10-31 10:01:18.453  INFO 12700 --- [http-nio-8081-exec-9] com.yijiupi.login.aspect.LogAspect       : Request : RequestLog{url='http://localhost:8081/', ip='0:0:0:0:0:0:0:1', classMethod='com.yijiupi.login.controller.EmpController.loginIndex', args=[]}
+2018-10-31 10:01:18.454  INFO 12700 --- [http-nio-8081-exec-9] com.yijiupi.login.aspect.LogAspect       : --------doAfter--------
+2018-10-31 10:01:18.454  INFO 12700 --- [http-nio-8081-exec-9] com.yijiupi.login.aspect.LogAspect       : Result : login
+2018-10-31 10:01:25.379  INFO 12700 --- [http-nio-8081-exec-10] com.yijiupi.login.aspect.LogAspect       : Request : RequestLog{url='http://localhost:8081/login', ip='0:0:0:0:0:0:0:1', classMethod='com.yijiupi.login.controller.EmpController.getEmp', args=[admin, admin, org.apache.catalina.session.StandardSessionFacade@3f8121a1, {}]}
+2018-10-31 10:01:25.393  INFO 12700 --- [http-nio-8081-exec-10] o.h.h.i.QueryTranslatorFactoryInitiator  : HHH000397: Using ASTQueryTranslatorFactory
+2018-10-31 10:01:25.565  INFO 12700 --- [http-nio-8081-exec-10] com.yijiupi.login.aspect.LogAspect       : --------doAfter--------
+2018-10-31 10:01:25.565  INFO 12700 --- [http-nio-8081-exec-10] com.yijiupi.login.aspect.LogAspect       : Result : index

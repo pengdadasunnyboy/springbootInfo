@@ -1,0 +1,57 @@
+@charset "UTF-8";
+*{
+  margin:0;
+  padding:0;	
+}
+form{
+	background:url(/../../images/two.jpeg) no-repeat;
+	background-size:100% 100%;
+}
+input{
+    width: 260px;
+    height:42px;
+}
+input:nth-child(1){
+	margin-top:20px;
+	display:inline-block;
+}
+.top-logo{
+	background:url(/../../images/three.jpg) no-repeat;
+	background-size:100% 100%;
+	width:52px;
+	height:49px;
+	margin:0 auto;
+	margin-bottom:30px;
+}
+.register{
+	text-align:center;
+}
+.btn{
+	width:260px;
+	height:42px;
+	color:white;
+	background-color:RGB(255,103,0);
+	margin-bottom:20px;
+	display:inline-block;
+}
+.attention{
+	color: #9d9d9d;
+	text-align:center;
+	padding-top:30px;
+    cursor: pointer;
+}
+em{
+	font-size:18px;
+	color:black;
+	font-weight:700;
+}
+.footer{
+    color: #9d9d9d;
+    text-align: center;
+	font-size: 14px;
+	padding-top:30px;
+    font-family: arial,"Hiragino Sans GB", "Microsoft YaHei","微軟正黑體","儷黑 Pro", sans-serif;
+}
+
+
+
