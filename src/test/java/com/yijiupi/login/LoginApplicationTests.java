@@ -1,7 +1,5 @@
 package com.yijiupi.login;
 
-import com.yijiupi.login.entity.Emp;
-import com.yijiupi.login.service.EmpService;
 import org.junit.Assert;
 import org.junit.Test;
 import org.junit.runner.RunWith;
