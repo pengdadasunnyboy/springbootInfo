@@ -19,8 +19,12 @@ public class RegController {
     public String Index(){
         return "index";
     }
+    @RequestMapping("/login")
+    public String Login(){
+        return "login";
+    }
 
-    @RequestMapping("/logins")
+    @RequestMapping("/loginIn")
     public String getReg(@RequestParam String username,
                          @RequestParam String password,
                          HttpSession session,
